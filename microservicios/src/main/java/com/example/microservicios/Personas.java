@@ -9,4 +9,9 @@ public class Personas {
     public String greeting() {
         return "Hola Abel buenos dias";
     }
+
+    @RequestMapping("/sumatoria")
+    public Integer sumatoria() {
+        return 6+6;
+    }
 }
