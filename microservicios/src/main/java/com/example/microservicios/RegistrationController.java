@@ -13,7 +13,7 @@ import com.example.microservicios.RegistrationService;
 import lombok.AllArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-@RequestMapping("adminDept")
+@RequestMapping("escuela")
 @AllArgsConstructor
 @RestController
 public class RegistrationController {
